@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+}
+
+.App {
+  text-align: center;
+}
+.input-group {
+  width: 30%;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.btn {
+  border: 1px solid #ced4da;
+  background-color: #f1f1f1;
+  border-left: none;
+  width: 12%;
+}
+.accordion-container {
+  display: flex;
+  justify-content:center;
+}
+.accordion {
+  --bs-accordion-bg: none
+}
+.table {
+  width: 80%;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color:inherit;
+  box-shadow: none;
+}
+
+.accordion-button-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.accordion-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.accordion-section {
+  display: flex;
+  width: 60%;
+  justify-content:space-between;
+  padding-right: 32px;
+}
+.accordion-sectionImg {
+  display: flex;
+  width: 40%;
+  justify-content:flex-start;
+  align-items: center;
+}
+.accordion-img {
+  margin-right: 24px;
+}
+.table-thead {
+  display: flex;
+ 
+}
+.table-thead-name {
+  display: flex;
+  width: 40%;
+  justify-content:flex-start;
+  align-items: center;
+  padding-left: 104px;
+}
+.table-thead-track {
+  display: flex;
+  width: 61%;
+  padding-right: 68px;
+}
+.table-thead-trackName {
+  text-align: start;
+  width: 33%;
+}
+.table-thead-collection {
+  width: 33.2%;
+  text-align: start;
+}
+.table-thead-genre {
+  width: 33.1%;
+  text-align: start;
+}
+.accordion-open {
+  display: flex;
+  width: 58%;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-left: 85px;
+}
+.accordion-open-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.accordion-body {
+  display: flex;
+}
+.accordion-open-track {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column
+}
